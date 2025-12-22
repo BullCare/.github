@@ -1,13 +1,12 @@
-# 🐂 BullCare
+# BullCare
 
 <div align="center">
 
-![BullCare Logo](../bullcare-03.svg)
+<img src="../bullcare-03.svg" alt="BullCare Logo" width="300">
 
 **Gestão inteligente para o sucesso da sua fazenda**
 
 [![Website](https://img.shields.io/badge/Website-bullcare.com.br-green)](https://bullcare.com.br)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/bullcare)
 
 </div>
