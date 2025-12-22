@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![BullCare Logo](bullcare-03.svg)
+![BullCare Logo](../bullcare-03.svg)
 
 **Gestão inteligente para o sucesso da sua fazenda**
 
@@ -24,6 +24,7 @@ Nosso ecossistema de ferramentas transforma dados em decisões estratégicas par
 
 Proporcionar aos produtores rurais as melhores ferramentas e conhecimentos para uma gestão eficiente, sustentável e lucrativa de suas propriedades e rebanhos através da tecnologia.
 
+<!--
 ## 🚀 Nossos Projetos
 
 ### 📱 Aplicações
@@ -116,11 +117,7 @@ Leia nosso [Guia de Contribuição](CONTRIBUTING.md) para mais detalhes.
 
 A segurança dos dados é nossa prioridade. Se você descobrir alguma vulnerabilidade, por favor envie um email para security@bullcare.com.br.
 
-Veja nossa [Política de Segurança](SECURITY.md) para mais informações.
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Veja nossa [Política de Segurança](SECURITY.md) para mais informações. -->
 
 ## 📞 Contato
 
@@ -129,16 +126,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 [![Email](https://img.shields.io/badge/Email-contato@bullcare.com.br-red)](mailto:contato@bullcare.com.br)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-BullCare-blue)](https://linkedin.com/company/bullcare)
 [![Twitter](https://img.shields.io/badge/Twitter-@bullcare-1DA1F2)](https://twitter.com/bullcare)
-
-</div>
-
-## 🌟 Apoiadores
-
-Agradecemos a todos que apoiam o projeto BullCare!
-
-<div align="center">
-
-⭐ Deixe uma estrela se este projeto te ajudou! ⭐
 
 </div>
 
