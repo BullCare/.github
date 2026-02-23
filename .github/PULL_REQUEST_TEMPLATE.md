@@ -35,4 +35,4 @@ descrição
 
 ## 🎯 Objetivo Final
 
-Entregar um controle de estoque confiável, auditável e integrado aos custos operacionais da fazenda, garantindo rastreabilidade e base sólida para análises financeiras.
+descrever
