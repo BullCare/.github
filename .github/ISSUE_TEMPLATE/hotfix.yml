@@ -1,0 +1,107 @@
+name: "🚨 Hotfix"
+description: "Correção urgente para um problema crítico em produção"
+title: "BC-XXXX — [HOTFIX] Título do Hotfix"
+labels: ["hotfix", "urgent"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > ⚠️ **Hotfixes são correções emergenciais para produção. Preencha com o máximo de detalhes possível.**
+
+        ---
+        ## 📌 Descrição do Problema
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição do Problema
+      description: "Descreva o problema crítico que está ocorrendo em produção."
+      placeholder: "Descreva o impacto e o comportamento incorreto observado..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 💥 Impacto
+
+  - type: dropdown
+    id: severidade
+    attributes:
+      label: Severidade
+      description: "Qual o nível de impacto do problema?"
+      options:
+        - "🔴 Crítico — sistema fora do ar ou perda de dados"
+        - "🟠 Alto — funcionalidade principal comprometida"
+        - "🟡 Médio — funcionalidade secundária comprometida"
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Usuários / Módulos Afetados
+      description: "Quais usuários, clientes ou módulos estão sendo afetados?"
+      placeholder: |
+        - Todos os usuários que acessam X
+        - Módulo de Y
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 🔁 Passos para Reproduzir
+
+  - type: textarea
+    id: reproducao
+    attributes:
+      label: Passos para Reproduzir
+      description: "Como reproduzir o problema?"
+      placeholder: |
+        1. Acesse...
+        2. Execute...
+        3. Observe o erro
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 🛠️ Causa Raiz (se conhecida)
+
+  - type: textarea
+    id: causa
+    attributes:
+      label: Causa Raiz
+      description: "Já foi identificada a causa do problema? Descreva aqui."
+      placeholder: "A causa foi identificada como... (deixe em branco se ainda não identificada)"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 🎯 Critérios de Aceite
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de Aceite
+      description: "Liste os critérios que indicam que o hotfix foi aplicado com sucesso. Use `- [ ] Critério` para criar checkboxes."
+      placeholder: |
+        - [ ] Critério 1
+        - [ ] Critério 2
+        - [ ] Critério 3
+      value: |
+        - [ ] Problema não é mais reproduzível em produção
+        - [ ] Funcionalidade validada após correção
+        - [ ] Monitoramento verificado sem novos erros
+        - [ ] Deploy realizado e confirmado
+    validations:
+      required: true

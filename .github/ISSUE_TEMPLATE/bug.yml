@@ -1,0 +1,108 @@
+name: "🐛 Bug"
+description: "Reporte um comportamento inesperado ou incorreto"
+title: "BC-XXXX — [BUG] Título do Bug"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📌 Descrição
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      description: "Descreva o bug encontrado de forma clara e objetiva."
+      placeholder: "Ao realizar X, o sistema faz Y mas deveria fazer Z..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 🔁 Passos para Reproduzir
+
+  - type: textarea
+    id: reproducao
+    attributes:
+      label: Passos para Reproduzir
+      description: "Descreva o passo a passo para reproduzir o bug."
+      placeholder: |
+        1. Acesse a tela de...
+        2. Clique em...
+        3. Preencha o campo com...
+        4. Observe o erro
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## ✅ Comportamento Esperado
+
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Comportamento Esperado
+      description: "O que deveria acontecer?"
+      placeholder: "O sistema deveria..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## ❌ Comportamento Atual
+
+  - type: textarea
+    id: atual
+    attributes:
+      label: Comportamento Atual
+      description: "O que está acontecendo de errado?"
+      placeholder: "O sistema está..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 🌍 Ambiente
+
+  - type: dropdown
+    id: ambiente
+    attributes:
+      label: Ambiente
+      description: "Em qual ambiente o bug foi encontrado?"
+      options:
+        - Produção
+        - Homologação
+        - Desenvolvimento
+      default: 0
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 🎯 Critérios de Aceite
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de Aceite
+      description: "Liste os critérios que indicam que o bug foi corrigido. Use `- [ ] Critério` para criar checkboxes."
+      placeholder: |
+        - [ ] Critério 1
+        - [ ] Critério 2
+        - [ ] Critério 3
+      value: |
+        - [ ] Bug não é mais reproduzível
+        - [ ] Comportamento esperado validado
+        - [ ] Regressão verificada
+    validations:
+      required: true

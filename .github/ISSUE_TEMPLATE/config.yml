@@ -1,0 +1,16 @@
+# Impede que os usuários criem issues sem usar um dos seus templates (Bug, Change Request, etc.)
+blank_issues_enabled: false
+
+# Links úteis que aparecerão na tela de "New Issue" como alternativas
+contact_links:
+  - name: 📚 Documentação Interna
+    url: https://github.com/BullCare/bullcare-docs
+    about: Consulte as regras de negócio e fluxos antes de abrir uma solicitação.
+
+#   - name: 🔐 Guia de Segurança & Autenticação
+#     url: https://github.com/sua-org/.github/blob/main/SECURITY_GUIDELINES.md
+#     about: Lembre-se que rotas protegidas exigem verificação de login periódica conforme o padrão da org.
+
+#   - name: 💬 Canal de Suporte (Slack/Teams)
+#     url: https://slack.com/sua-org
+#     about: Para dúvidas rápidas que não necessitam de um ticket formal.
