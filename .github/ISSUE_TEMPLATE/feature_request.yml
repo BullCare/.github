@@ -9,10 +9,6 @@ body:
       label: "📌 Descrição"
       description: "Descreva o objetivo da issue."
       placeholder: "Adaptar a rotina de evento existente para..."
-      value: |
-        ## 📌 Descrição
-
-        <!-- Descreva o objetivo da issue aqui -->
     validations:
       required: true
 
@@ -22,8 +18,6 @@ body:
       label: "📐 Regras de Negócio"
       description: "Liste as regras de negócio relevantes."
       value: |
-        ## 📐 Regras de Negócio
-
         - Regra 1
         - Regra 2
     validations:
@@ -35,8 +29,6 @@ body:
       label: "🎯 Critérios de Aceite"
       description: "Use `- [ ] Critério` para criar checkboxes."
       value: |
-        ## 🎯 Critérios de Aceite
-
         - [ ] Critério 1
         - [ ] Critério 2
         - [ ] Critério 3
