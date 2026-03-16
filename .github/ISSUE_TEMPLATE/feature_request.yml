@@ -3,57 +3,40 @@ description: "Template padrão para novas funcionalidades e tarefas"
 title: "BC-XXXX — [TIPO] Título da Issue"
 labels: []
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## 📌 Descrição
-
   - type: textarea
     id: descricao
     attributes:
-      label: Descrição
-      description: "Descreva o objetivo da issue. Explique o contexto, o problema ou a funcionalidade a ser implementada."
+      label: "📌 Descrição"
+      description: "Descreva o objetivo da issue."
       placeholder: "Adaptar a rotina de evento existente para..."
+      value: |
+        ## 📌 Descrição
+
+        <!-- Descreva o objetivo da issue aqui -->
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        ## 📐 Regras de Negócio
 
   - type: textarea
     id: regras
     attributes:
-      label: Regras de Negócio
+      label: "📐 Regras de Negócio"
       description: "Liste as regras de negócio relevantes."
-      placeholder: |
+      value: |
+        ## 📐 Regras de Negócio
+
         - Regra 1
         - Regra 2
-          - Detalhe ou sub-regra
-        - Regra 3
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        ## 🎯 Critérios de Aceite
 
   - type: textarea
     id: criterios
     attributes:
-      label: Critérios de Aceite
-      description: "Liste os critérios de aceite. Use `- [ ] Critério` para criar checkboxes."
-      placeholder: |
-        - [ ] Critério 1
-        - [ ] Critério 2
-        - [ ] Critério 3
-        - [ ] Critério 4
-        - [ ] Critério 5
+      label: "🎯 Critérios de Aceite"
+      description: "Use `- [ ] Critério` para criar checkboxes."
       value: |
+        ## 🎯 Critérios de Aceite
+
         - [ ] Critério 1
         - [ ] Critério 2
         - [ ] Critério 3
